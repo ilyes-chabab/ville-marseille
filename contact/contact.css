@@ -1,0 +1,62 @@
+div.title h6 {
+    font-size: 1,5em;
+}
+
+div.title h3 {
+    font-size: 2em;
+}
+div.title {
+    text-align: center;
+}
+
+#contact {
+    max-width: 1100px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: #03a9f4;
+    padding: 10px;
+    border-radius: 5px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0px 10px 50px -10px #d6d6d6;
+}
+
+div.form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    max-width: 600px;
+}
+
+div.form input{
+    width: 20%;
+    margin-bottom: 10%;
+}
+
+div.form input:hover{
+    border: 5px solid #03a9f4;
+}
+
+div.form textarea {
+    width: 200%;
+}
+
+div.form textarea:hover {
+    border: 5px solid #03a9f4;
+}
+
+div.form button {
+    width: 190px;
+    height: 50px;
+    border-radius: 8px;
+    border: none;
+    background-color: #03a9f4;
+    color: white;
+    font-weight: bold;
+    font-size: 1,2rem;
+    cursor: pointer;
+    margin-top: 30px;
+    outline: none;
+}
