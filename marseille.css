@@ -182,12 +182,12 @@ margin: 0;
      margin: 0;  
      padding-right: 0.25%  
  }
- .réseaux_sociaux_footer{
+ .reseaux_sociaux_footer{
     display: flex;
     flex-direction: column;
     padding-top: 0.5%;
  }
- .Liste-reseaux_footer{
+ .Liens-reseaux_footer{
     margin-top: 2%;
     padding: 0;
     display: flex;
@@ -196,11 +196,12 @@ margin: 0;
     text-align: center;
     position: relative;
 }
-.réseaux_sociaux_footer{
+.reseaux_sociaux_footer{
     display:flex;
     justify-content: end;
     flex-direction: row;
 }
+
 /* FIN RESEAUX SOCIAUX et logo */
 
 .ecriture_footer{
@@ -233,3 +234,10 @@ margin: 0;
     background-color: #043775;
 }
 
+.espace_reseau_footer{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+
+}
